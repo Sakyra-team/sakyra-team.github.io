@@ -40,6 +40,7 @@ header h1 {
 main {
     background-color: white;
     padding: 20px;
+    padding-bottom: 100px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 
@@ -70,24 +71,44 @@ main input::placeholder{
 
 .main-box {
     margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    left: 0;
+    right: 0;
+}
+
+.data {
+    margin: 20px;
+    text-align: start;
+    color: #636363;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .box-event {
+    width: 90%;
+
 
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
-    border: 2px solid black;
+
     border-radius: 40.62px;
     color: black;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
+.box-footer {
+    background-color: red;
+}
 
-footer p {
-    color: white;
+.footer {
+    background-color: white;
     text-align: left;
     position: absolute;
     left: 20px;
-    bottom: -500px;
+    bottom: 10px;
 }
