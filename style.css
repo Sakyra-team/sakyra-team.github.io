@@ -85,8 +85,9 @@ main input::placeholder{
 
 
 footer p {
+    color: white;
     text-align: left;
     position: absolute;
     left: 20px;
-    bottom: -200px;
+    bottom: -500px;
 }
