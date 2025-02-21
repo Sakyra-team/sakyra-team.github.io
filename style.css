@@ -101,6 +101,7 @@ main input::placeholder{
 
     display: flex;
     flex-direction: column;
+    text-align: start;
     align-items: center;
 }
 
@@ -111,9 +112,8 @@ main input::placeholder{
     font-size: 20px;
 }
 
-
 .box-event {
-    width: 92%;
+    width: 100%;
     
     
     padding-top: 20px;
@@ -148,7 +148,6 @@ main input::placeholder{
 }
 
 .footer {
-    color: black;
     width: 100%;
     background-color: white;
     text-align: left;
