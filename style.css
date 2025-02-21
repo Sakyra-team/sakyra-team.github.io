@@ -102,7 +102,7 @@ main input::placeholder{
     display: flex;
     flex-direction: column;
     text-align: start;
-    align-items: center;
+    align-items: left;
 }
 
 .data {
