@@ -10,17 +10,21 @@
 
 ::-webkit-scrollbar {
     width: 0;
+    height: 0;
 }
 
 html {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: white;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+    background-image: url(photo/red_elips.png);
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 
 .blue_elips {
@@ -136,5 +140,6 @@ main input::placeholder{
     text-align: left;
     position: absolute;
     left: 20px;
-    bottom: 10px;
+    top: 975px;
+    padding-bottom: 20px;
 }
