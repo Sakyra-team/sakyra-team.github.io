@@ -87,8 +87,12 @@ main input {
 }
 
 main input::placeholder{
+    background-image: url(photo/lypa.png);
+    background-size: 12px, 7px;
+    background-repeat: no-repeat;
+    background-position: 15px;
     text-align: start;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .main-box {
@@ -126,13 +130,20 @@ main input::placeholder{
 }
 
 .box-p {
-    margin-left: -10px;
-    font-size: 18px;
-    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .p-time {
-    color:blue;
+    color:#777777;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
 }
 
 .footer {
