@@ -148,6 +148,7 @@ main input::placeholder{
 }
 
 .footer {
+    color: black;
     width: 100%;
     background-color: white;
     text-align: left;
