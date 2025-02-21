@@ -65,6 +65,7 @@ main {
     padding-bottom: 100px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    z-index: 800;
 
     display: flex;
     flex-direction: column;
@@ -146,11 +147,18 @@ main input::placeholder{
     font-size: 12px;
 }
 
+.blue_elips2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
 .footer {
-    background-color: white;
+    width: 100%;
+    color: white;
     text-align: left;
     position: absolute;
     left: 20px;
-    top: 975px;
+    top: 925px;
     padding-bottom: 20px;
 }
