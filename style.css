@@ -8,13 +8,31 @@
 
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 html {
     height: 100%;
 }
 
 body {
-    background-color: black;
+    background-color: white;
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.blue_elips {
+    position: absolute;
+    top: -60px;
+    left: -90px;
+}
+
+.red_elips {
+    position: absolute;
+    top: 10px;
+    left: 100px;
 }
 
 header{
@@ -75,14 +93,10 @@ main input::placeholder{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    left: 0;
-    right: 0;
 }
 
 .data {
     margin: 20px;
-    text-align: start;
     color: #636363;
     font-weight: bold;
     font-size: 20px;
@@ -114,11 +128,7 @@ main input::placeholder{
 }
 
 .p-time {
-    color:red;
-}
-
-.box-footer {
-    background-color: red;
+    color:blue;
 }
 
 .footer {
