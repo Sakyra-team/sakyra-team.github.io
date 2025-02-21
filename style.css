@@ -88,6 +88,10 @@ main input::placeholder{
     font-size: 20px;
 }
 
+.img-event {
+    width: 100%;
+}
+
 .box-event {
     width: 90%;
 
