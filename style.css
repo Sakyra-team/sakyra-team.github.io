@@ -20,6 +20,8 @@ html {
 }
 
 body {
+    overflow-x: hidden;
+    position: fixed;
     background-color: white;
     height: 100%;
     width: 100%;
