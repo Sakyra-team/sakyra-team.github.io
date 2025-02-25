@@ -58,7 +58,13 @@ body {
 
 
 .foot-p {
-    color: white;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(200px);
+    padding: 10px;
+    border-radius: 16px;
+
+    color: rgba(255, 255, 255, 1);
     position: absolute;
     bottom: 2vh;
     left: 10vw;
