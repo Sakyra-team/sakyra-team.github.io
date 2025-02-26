@@ -4,27 +4,20 @@
     padding: 0px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
-    text-align: center;  
-
 }
 
 ::-webkit-scrollbar {
     width: 0;
-    height: 0;
 }
 
 html {
     height: 100%;
     overflow-x: hidden;
-    position: fixed;
 }
 
 body {
-    overflow-x: hidden;
-    position: fixed;
     background-color: white;
     height: 100%;
-    width: 100%;
     background-image: url(photo/red_elips.png);
     background-position: top right;
     background-repeat: no-repeat;
@@ -101,15 +94,11 @@ main input::placeholder{
 
 .main-box {
     margin-top: 40px;
-
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    align-items: left;
 }
 
 .data {
     margin: 20px;
+    margin-left: 0px;
     color: #636363;
     font-weight: bold;
     font-size: 20px;
@@ -122,11 +111,13 @@ main input::placeholder{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
+
     
     border-radius: 40.62px;
     color: black;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
+
 
 .img-event {
     width: 100%;
@@ -151,11 +142,11 @@ main input::placeholder{
 }
 
 .footer {
-    width: 100%;
+    width: 20em;
     background-color: white;
     text-align: left;
     position: absolute;
     left: 20px;
-    top: 975px;
+    bottom: 0px;
     padding-bottom: 20px;
 }
