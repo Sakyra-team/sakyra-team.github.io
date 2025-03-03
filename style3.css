@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    width: 10   0%;
+}
+
+.head-div {
+    min-height: 33vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right bottom, #FFFFFF -10%, #3B00E7 47%, #E63530 100%);
+}
+
+.head-left {
+    margin-left: 3vw;
+}
+
+.logo {
+    width: 39vw;
+    margin-top: 20px;
+}
+
+.head-h1 {
+    font-size: 1.5em;
+}
+
+.head-p {
+    margin-top: 2vh;
+    font-size: 1.2em;
+}
+
+.head-button {
+    min-width: 3vw;
+    max-width: 39vw;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-top: 2vh;
+}
+
+.head-img {
+    min-height: 10vh;
+    max-height: 31vh;
+    position: absolute;
+    right: 3vh;
+}
+
+
+
+main {
+    text-align: center;
+    align-items: center;
+}
+
+.main-box-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-box-count-box {
+    width: 66vw;
+    background-color: #4D4D4D;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+
+
+
+
+.project-img {
+    width: 300px;
+}
+
+.img-idea {
+    width: 200px;
+}
+
+.img-message {
+    width: 200px;
+}
