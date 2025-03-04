@@ -15,7 +15,7 @@ body {
     background-color: white;
     color: black;
 
-    background-image:url(images/red_elips.png), url(images/blue_elips.png);
+    background-image:url(photo2/red_elips.png), url(photo2/blue_elips.png);
     background-size: 100%, 100%, 100%, 100%;
     background-position: -10px -50px, center -100px;
     background-repeat: no-repeat, no-repeat;
